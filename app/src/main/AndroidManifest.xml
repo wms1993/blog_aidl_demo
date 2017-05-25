@@ -18,6 +18,15 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </service>
+
+        <service
+            android:name="com.wms.github.aidl.server.MyCodeService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.wms.github.aidl.server.MyCodeService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
